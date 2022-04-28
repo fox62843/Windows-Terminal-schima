@@ -34,21 +34,37 @@
     "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
     "profiles": 
     {
-        "defaults": {},
+        "defaults": 
+        {
+            "colorScheme": "Original schima",
+            "font": 
+            {
+                "face": "\u6e90\u30ce\u89d2\u30b4\u30b7\u30c3\u30af Code JP",
+                "size": 13,
+                "weight": "normal"
+            },
+            "opacity": 62,
+            "useAcrylic": true
+        },
         "list": 
         [
             {
                 "antialiasingMode": "cleartype",
+                "backgroundImage": null,
+                "backgroundImageAlignment": "center",
+                "backgroundImageOpacity": 0.58999999999999997,
                 "colorScheme": "Original schima",
+                "experimental.retroTerminalEffect": false,
                 "font": 
                 {
-                    "face": "BIZ UD\u30b4\u30b7\u30c3\u30af",
-                    "size": 16
+                    "face": "\u6e90\u30ce\u89d2\u30b4\u30b7\u30c3\u30af Code JP",
+                    "size": 13
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
+                "intenseTextStyle": "bright",
                 "name": "Windows PowerShell",
-                "opacity": 60,
+                "opacity": 64,
                 "padding": "10",
                 "useAcrylic": true
             },
@@ -56,8 +72,8 @@
                 "colorScheme": "Original schima",
                 "font": 
                 {
-                    "face": "BIZ UD\u30b4\u30b7\u30c3\u30af",
-                    "size": 16
+                    "face": "\u6e90\u30ce\u89d2\u30b4\u30b7\u30c3\u30af Code JP",
+                    "size": 13
                 },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
@@ -70,8 +86,8 @@
                 "colorScheme": "Original schima",
                 "font": 
                 {
-                    "face": "BIZ UD\u30b4\u30b7\u30c3\u30af",
-                    "size": 16
+                    "face": "\u6e90\u30ce\u89d2\u30b4\u30b7\u30c3\u30af Code JP",
+                    "size": 13
                 },
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
@@ -85,8 +101,8 @@
                 "colorScheme": "Original schima",
                 "font": 
                 {
-                    "face": "BIZ UD\u30b4\u30b7\u30c3\u30af",
-                    "size": 16
+                    "face": "\u6e90\u30ce\u89d2\u30b4\u30b7\u30c3\u30af Code JP",
+                    "size": 13
                 },
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
@@ -95,6 +111,34 @@
                 "padding": "10",
                 "source": "Git",
                 "useAcrylic": true
+            },
+            {
+                "backgroundImageOpacity": 0.59999999999999998,
+                "colorScheme": "Original schima",
+                "font": 
+                {
+                    "face": "\u6e90\u30ce\u89d2\u30b4\u30b7\u30c3\u30af Code JP",
+                    "size": 13
+                },
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "opacity": 60,
+                "padding": "10",
+                "source": "Windows.Terminal.PowershellCore",
+                "useAcrylic": true
+            },
+            {
+                "guid": "{a4ead0f2-9616-5433-b49e-7489d2d89fb9}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{3e42a0c0-8b8e-593a-bad8-7b5f2937f04f}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
@@ -111,7 +155,7 @@
             "brightPurple": "#B4009E",
             "brightRed": "#E74856",
             "brightWhite": "#F2F2F2",
-            "brightYellow": "#F9F1A5",
+            "brightYellow": "#F92368",
             "cursorColor": "#FFFFFF",
             "cyan": "#3A96DD",
             "foreground": "#FFFFFF",
@@ -121,7 +165,7 @@
             "red": "#C50F1F",
             "selectionBackground": "#292929",
             "white": "#CCCCCC",
-            "yellow": "#C19C00"
+            "yellow": "#FFCE00"
         },
         {
             "background": "#012456",
@@ -207,13 +251,13 @@
             "cursorColor": "#FFFFFF",
             "cyan": "#00FFA6",
             "foreground": "#45FF3F",
-            "green": "#859900",
+            "green": "#52FFCF",
             "name": "Original schima",
             "purple": "#D33682",
             "red": "#DC322F",
             "selectionBackground": "#00F8FF",
             "white": "#EEE8D5",
-            "yellow": "#B58900"
+            "yellow": "#FFFB05"
         },
         {
             "background": "#002B36",
@@ -332,5 +376,6 @@
         }
     ],
     "showTabsInTitlebar": true,
-    "startOnUserLogin": false
+    "startOnUserLogin": false,
+    "useAcrylicInTabRow": true
 }
